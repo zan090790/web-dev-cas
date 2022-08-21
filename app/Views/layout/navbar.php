@@ -9,9 +9,9 @@
             <div class="navbar-nav ms-auto">
                 <a class="nav-link mx-2 fs-5 <?php if ($title == "Caka Architect Studio") echo "active"; ?>" aria-current="page" href="<?= base_url('/'); ?>">Home</a>
                 <a class="nav-link mx-2 fs-5 <?php if ($title == "Projects") echo "active"; ?>" href="<?= base_url('/projects'); ?>">Projects</a>
-                <a class="nav-link mx-2 fs-5" href="#">Pricing & Procedure</a>
-                <a class="nav-link mx-2 fs-5" href="#">Contact</a>
-                <a class="nav-link mx-2 me-2 fs-5" href="#">About</a>
+                <a class="nav-link mx-2 fs-5 <?php if ($title == "Pricing & Procedure") echo "active"; ?>" href="<?= base_url('/pricing-and-procedure'); ?>">Pricing & Procedure</a>
+                <a class="nav-link mx-2 fs-5 <?php if ($title == "Contact") echo "active"; ?>" href="<?= base_url('/contact'); ?>">Contact</a>
+                <a class="nav-link mx-2 me-2 fs-5 <?php if ($title == "About") echo "active"; ?>" href="<?= base_url('/about'); ?>">About</a>
             </div>
         </div>
     </div>

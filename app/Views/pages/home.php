@@ -70,7 +70,7 @@
                 Ut rutrum, dolor eu commodo mattis, mauris enim pretium tortor,
                 id tempus ipsum elit rhoncus neque. Praesent et mi sed sapien finibus maximus a vel tortor.
                 Nam sit amet ante blandit, congue ante ac, tristique ligula. Maecenas nec convallis quam, ac ornare est. </p>
-            <button type="button" class="btn btn-success mt-5" id="home-btn-2" style="--bs-btn-padding-y: 20px; --bs-btn-padding-x: 100px; --bs-btn-font-size: 1rem;">
+            <button type="button" class="btn btn-success my-5" id="home-btn-2" style="--bs-btn-padding-y: 20px; --bs-btn-padding-x: 100px; --bs-btn-font-size: 1rem;">
                 Success
             </button>
         </div>
@@ -108,7 +108,7 @@
     </div>
     <div class="row justify-content-center">
         <div class="col text-center">
-            <button type="button" class="btn btn-success mt-5 text-light" id="home-btn-2" style="--bs-btn-padding-y: 20px; --bs-btn-padding-x: 100px; --bs-btn-font-size: 1rem;">
+            <button type="button" class="btn btn-success my-5 text-light" id="home-btn-2" style="--bs-btn-padding-y: 20px; --bs-btn-padding-x: 100px; --bs-btn-font-size: 1rem;">
                 Success
             </button>
         </div>

@@ -15,14 +15,18 @@
 
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Font Awesome Lib -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body class="bg-light text-dark">
+<body class="bg-light text-dark d-flex flex-column min-vh-100">
     <?= $this->include('/layout/navbar'); ?>
 
     <?= $this->renderSection('content'); ?>
 
-    <footer class="footer mt-5 py-3">
+
+    <footer class="footer mt-auto py-3">
         <div class="container text-center">
             <span class="text-white">&#169;Caka Architect Studio 2022</span>
         </div>
