@@ -16,8 +16,8 @@
 <div class="row align-items-center">
     <?php for ($y = 0; $y < 3; $y++) { ?>
         <div class="row mx-auto">
-            <?php for ($i = 0; $i < 6; $i++) { ?>
-                <div class="col mx-0 mb-4 bg-light text-center">
+            <?php for ($i = 0; $i < 5; $i++) { ?>
+                <div class="col ms-4 mb-4 bg-light text-center">
                     <div class="card" style="width: 270px;">
                         <a href="" style="text-decoration: none;">
                             <img src="../../../../img/home/img-1.jpg" class="rounded-3 mx-auto d-block m-2" alt="" style="width: 250px; height: 400px;">

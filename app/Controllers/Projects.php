@@ -12,4 +12,13 @@ class Projects extends BaseController
 
         return view('pages/projects', $data);
     }
+
+    public function project_detail()
+    {
+        $data = [
+            'title' => 'Project Detail'
+        ];
+
+        return view('pages/project_detail', $data);
+    }
 }

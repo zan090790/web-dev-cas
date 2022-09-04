@@ -64,7 +64,7 @@
         <div class="col mt-5">
             <img src="../../../../img/home/img-4.jpg" class="img-fluid ms-5 home-img" id="home-img-5" alt="">
         </div>
-        <div class="col mt-5 ms-0 me-5">
+        <div class="col mt-5 ms-5 me-5">
             <p class="fs-1 fw-semibold">Kami mendesign blablablablablablablablablalbal</p>
             <p class="fs-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Ut rutrum, dolor eu commodo mattis, mauris enim pretium tortor,
