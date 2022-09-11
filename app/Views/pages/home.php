@@ -42,43 +42,47 @@
 </div>
 
 <!-- description - desktop view -->
-<div class="desktop-view">
-    <div class="row mt-5 mx-5">
-        <div class="col mt-5 me-5 ms-4">
-            <p class="fs-1 fw-semibold">Kami mendesign blablablablablablablablablalbal</p>
-            <p class="fs-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Ut rutrum, dolor eu commodo mattis, mauris enim pretium tortor,
-                id tempus ipsum elit rhoncus neque. Praesent et mi sed sapien finibus maximus a vel tortor.
-                Nam sit amet ante blandit, congue ante ac, tristique ligula. Maecenas nec convallis quam, ac ornare est. </p>
-            <button type="button" class="btn btn-success mt-5 home-btn" id="home-btn-1" style="--bs-btn-padding-y: 20px; --bs-btn-padding-x: 100px; --bs-btn-font-size: 1rem;">
-                Success
-            </button>
+<!-- <div class="desktop-view"> -->
 
-        </div>
-        <div class="col mt-5 ms-5">
-            <img src="../../../../img/home/img-4.jpg" class="img-fluid ms-5 home-img" id="home-img-4" alt="">
-        </div>
+
+
+<div class="container">
+    <div class="card1">
+        <p class="headline">Kami mendesign blablablablablablablablablalbal</p>
+        <p class="isi">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Ut rutrum, dolor eu commodo mattis, mauris enim pretium tortor,
+            id tempus ipsum elit rhoncus neque. Praesent et mi sed sapien finibus maximus a vel tortor.
+            Nam sit amet ante blandit, congue ante ac, tristique ligula. Maecenas nec convallis quam, ac ornare est. </p>
+        <button type="button" class="tombol" id="home-btn-1" style="--bs-btn-padding-y: 20px; --bs-btn-padding-x: 100px; --bs-btn-font-size: 1rem;">
+            Success
+        </button>
+
     </div>
-
-    <div class="row mt-5 mx-5">
-        <div class="col mt-5">
-            <img src="../../../../img/home/img-4.jpg" class="img-fluid ms-5 home-img" id="home-img-5" alt="">
-        </div>
-        <div class="col mt-5 ms-5 me-5">
-            <p class="fs-1 fw-semibold">Kami mendesign blablablablablablablablablalbal</p>
-            <p class="fs-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Ut rutrum, dolor eu commodo mattis, mauris enim pretium tortor,
-                id tempus ipsum elit rhoncus neque. Praesent et mi sed sapien finibus maximus a vel tortor.
-                Nam sit amet ante blandit, congue ante ac, tristique ligula. Maecenas nec convallis quam, ac ornare est. </p>
-            <button type="button" class="btn btn-success my-5" id="home-btn-2" style="--bs-btn-padding-y: 20px; --bs-btn-padding-x: 100px; --bs-btn-font-size: 1rem;">
-                Success
-            </button>
-        </div>
+    <div class="card2">
+        <img src="../../../../img/home/img-4.jpg" class="photo" id="home-img-4" alt="">
     </div>
 </div>
 
+<div class="container">
+    <div class="card3">
+        <img src="../../../../img/home/img-4.jpg" class="photo" id="home-img-5" alt="">
+    </div>
+    <div class="card4">
+        <p class="headline">Kami mendesign blablablablablablablablablalbal</p>
+        <p class="isi">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Ut rutrum, dolor eu commodo mattis, mauris enim pretium tortor,
+            id tempus ipsum elit rhoncus neque. Praesent et mi sed sapien finibus maximus a vel tortor.
+            Nam sit amet ante blandit, congue ante ac, tristique ligula. Maecenas nec convallis quam, ac ornare est. </p>
+        <button type="button" class="tombol" id="home-btn-2" style="--bs-btn-padding-y: 20px; --bs-btn-padding-x: 100px; --bs-btn-font-size: 1rem;">
+            Success
+        </button>
+    </div>
+</div>
+</div>
+</div>
+
 <!-- description - mobile view -->
-<div class="mobile-view">
+<!-- <div class="mobile-view">
     <div class="row mt-5 mx-5">
         <div class="col mt-5">
             <p class="fs-1 fw-semibold">Kami mendesign blablablablablablablablablalbal</p>
@@ -114,6 +118,6 @@
         </div>
     </div>
 
-</div>
+</div> -->
 
 <?= $this->endSection(); ?>

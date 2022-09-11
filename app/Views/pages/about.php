@@ -14,12 +14,13 @@
         <p class="fs-4 fw-semi-bold">Tentang Perusahaan</p>
         <div class="card">
             <div class="card-body">
-                <div class="row">
-                    <div class="col-4">
+                <div class="container">
+                    <div class="card3">
+                        <div class="namausaha">CAKA ARCHITECT <br> STUDIO</div>
                         <img src="../../../../img/home/img-1.jpg" class="img-fluid rounded-2" alt="" style="height: 400px; width: 400px;">
                     </div>
-                    <div class="col-8">
-                        <p class="fs-5">
+                    <div class="card4">
+                        <p class="keterangan">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Ut rutrum, dolor eu commodo mattis, mauris enim pretium tortor,
                             id tempus ipsum elit rhoncus neque. Praesent et mi sed sapien finibus
@@ -47,7 +48,7 @@
         </div>
     </div>
 
-    <div class="row my-5 d-grid gap-3">
+    <div class="row my-5 d-grid gap-3" id="headline">
         <p class="fs-4 fw-semi-bold">Tim Kami</p>
         <div class="row">
             <div class="col bg-light text-center">
